@@ -78,3 +78,9 @@ a:active{
     pointer-events: none;
     transition: .5s;
 }
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: white;
+}
