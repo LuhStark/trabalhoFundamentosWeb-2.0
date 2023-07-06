@@ -5,25 +5,25 @@
 	box-sizing: border-box;
 }
 body {
-	background-color: rgb(253, 254, 255);
+	background-color: rgb(119,136,153);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: cadetblue;
+    color: black;
     text-align: center;
 }
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: cadetblue;
+    color: black;
     text-align: center;
 }
 .box {
     color: white;
     position: initial;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(105,105,105);
     padding: 15px;
     border-radius: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,7 +34,7 @@ h2 {
    position: initial;
    border-radius: 15px;
    padding: 15px;
-   background-color: rgba(0,0,0,0.6);
+   background-color: rgba(105,105,105);
    color: white;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    width: auto;
@@ -43,7 +43,7 @@ h2 {
 .botao {
     border-radius: 10px;
     padding: 10px;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(47,79,79);
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: auto;
@@ -53,7 +53,7 @@ a{
     color: white;
 }
 a:hover{
-    color:black;
+    color:darkgrey;
 }
 a:active{
     color: white;
