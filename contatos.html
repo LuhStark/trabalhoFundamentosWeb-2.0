@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="box1">
-        <form action="/post.html" method="post" data-netlify="true" name="Contatos">
+        <form id="myForm">
             <fieldset>
                 <h1>Entre em contato</h1>
                 <br><br>
@@ -33,9 +33,6 @@
                         <input type="submit" value="Enviar">
                     </div>
                     <br><br>
-                    <!-- <button class="botao">
-                        <a href="">Enviar</a>
-                    </button> -->
                     <div class="box">
                         <button class="botao">
                             <a href="index.html">Sobre Mim</a>
@@ -54,5 +51,16 @@
             </fieldset>
         </form>
     </div>
+    <div class="overlay" id="confirmationOverlay">
+        <div class="modal">
+          <h2>O envio foi confirmado!</h2>
+          <p>Obrigado por enviar a sua dúvida.</p>
+            <input type="text" id="nome" value=""><br>
+            <input type="text" id="contato" value=""><br>
+            <input type="email" id="email" value=""><br>
+            <input type="tel" id="celular" value=""><br>
+        </div>
+      </div>
+    <script src="script.js"></script>
 </body>
 </html>
