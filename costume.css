@@ -2,6 +2,7 @@
 * {
 	box-sizing: border-box;
 }
+/* Aqui esta as propriedades de configuração da pagina, tanto das fontes, estrutura e cores */
 body {
 	background-color: rgb(119,136,153);
 	display: flex;
@@ -38,7 +39,7 @@ h2 {
    width: auto;
    font-style: normal;
 }
-.botao {
+.botao{
     border-radius: 10px;
     padding: 10px;
     background-color: rgba(47,79,79);
@@ -46,12 +47,18 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: auto;
 }
+.botao:hover{
+    color: black;
+}
+.botao:active{
+    color: white;
+}
 a{
     text-decoration: none;
     color: white;
 }
 a:hover{
-    color:darkgrey;
+    color:black;
 }
 a:active{
     color: white;

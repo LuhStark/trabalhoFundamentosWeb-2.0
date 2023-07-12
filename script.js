@@ -11,9 +11,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     }
   });
 
-
-   
-  function validateForm() {
+  function validateForm() { // Irá validar as informações
     var nome = document.getElementById("nome").value;
     var motivo_contato = document.getElementById("motivo_contato").value;
     var email = document.getElementById("email").value;
